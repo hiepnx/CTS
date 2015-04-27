@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,14 +50,29 @@
     <Compile Include="Domain\Base\BaseEntity.cs" />
     <Compile Include="Domain\BugCategory.cs" />
     <Compile Include="Domain\BugSubCategory.cs" />
+    <Compile Include="Domain\CTSDbContext.cs" />
     <Compile Include="Domain\Enum\TestResult.cs" />
     <Compile Include="Domain\Enum\TestType.cs" />
+    <Compile Include="Domain\Initializer\CTSInitializer.cs" />
+    <Compile Include="Domain\Mapping\AnalysisStatusMap.cs" />
+    <Compile Include="Domain\Mapping\BugCategoryMap.cs" />
+    <Compile Include="Domain\Mapping\BugSubCategoryMap.cs" />
+    <Compile Include="Domain\Mapping\SettingMap.cs" />
+    <Compile Include="Domain\Mapping\TestAttachmentMap.cs" />
+    <Compile Include="Domain\Mapping\TestCommentMap.cs" />
+    <Compile Include="Domain\Mapping\TestItemMap.cs" />
+    <Compile Include="Domain\Mapping\TestItemTagMap.cs" />
+    <Compile Include="Domain\Setting.cs" />
     <Compile Include="Domain\TestAttachment.cs" />
     <Compile Include="Domain\TestComment.cs" />
     <Compile Include="Domain\TestItem.cs" />
+    <Compile Include="Domain\TestItemTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

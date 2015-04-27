@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 
 namespace CTS.Domain.Domain
 {
-     class AnalysisStatus: BaseEntity
+    public class AnalysisStatus: BaseEntity
     {
-
+         public AnalysisStatus()
+         {
+             this.TestItems = new List<TestItem>();
+         }
         public string Name { get; set; } 
 
         public string Description { get; set; }
+
+        public ICollection<TestItem> TestItems { get; set; }
     }
 }

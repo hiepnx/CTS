@@ -1,0 +1,9 @@
+D:\GitHub\CTS\CTS.Domain\bin\Debug\CTS.Domain.dll.config
+D:\GitHub\CTS\CTS.Domain\bin\Debug\CTS.Domain.dll
+D:\GitHub\CTS\CTS.Domain\bin\Debug\CTS.Domain.pdb
+D:\GitHub\CTS\CTS.Domain\bin\Debug\EntityFramework.dll
+D:\GitHub\CTS\CTS.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\CTS\CTS.Domain\bin\Debug\EntityFramework.xml
+D:\GitHub\CTS\CTS.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\CTS\CTS.Domain\obj\Debug\CTS.Domain.dll
+D:\GitHub\CTS\CTS.Domain\obj\Debug\CTS.Domain.pdb
