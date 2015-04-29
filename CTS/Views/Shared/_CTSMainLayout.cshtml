@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="~/Content/style.css" />
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <div class="header"> 
+            <div class="logo">
+
+            </div>
+            <div class ="searchForm">
+                <form>
+                    Search
+                    <input type="text" name="tags" />
+                    <input type="submit" value="go" />
+                </form>
+            </div>
+            <div class="userArea">
+                
+            </div>
+        </div>
+        
+        <div class="leftMenu">
+            
+        </div>
+
+        <div class ="mainContent">
+        @RenderBody()
+        </div>
+     
+    </div>
+</body>
+</html>

@@ -22,3 +22,5 @@ D:\GitHub\CTS\CTS\bin\System.Web.WebPages.Razor.xml
 D:\GitHub\CTS\CTS\obj\Debug\CTS.Web.csprojResolveAssemblyReference.cache
 D:\GitHub\CTS\CTS\obj\Debug\CTS.dll
 D:\GitHub\CTS\CTS\obj\Debug\CTS.pdb
+D:\GitHub\CTS\CTS\bin\CTS.Services.dll
+D:\GitHub\CTS\CTS\bin\CTS.Services.pdb

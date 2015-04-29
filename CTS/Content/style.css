@@ -1,0 +1,48 @@
+﻿body {
+    margin:5px 25px 5px 25px;
+}
+
+.header
+{
+    width:100%;
+    background-color:#78a300;
+    height:75px;
+}
+.logo
+{
+    width:100px;
+    height:75px;
+    background-image:url(http://www.fusiontrained.com/wp-content/uploads/2014/01/ANDROID.png);
+    background-color:#78a300;
+    background-size: 75px 75px;
+    background-repeat:no-repeat;
+    float:left;
+}
+.searchForm
+{
+    padding:5px;
+    float:right;
+}
+.userArea
+{
+    width:36px;
+    height:30px;
+    float:right;
+    background-image:url(Image/user_sm.png);
+    background-size:26px 26px;
+    background-repeat:no-repeat;
+    border-radius:4px;
+    clear:right;
+    margin:5px 20px 5px 10px;
+}
+.leftMenu
+{
+    float:left;
+    min-width:20%;
+    max-width:40%;
+    min-height:400px;
+    height:100%;
+    background-color:grey;
+    border:1px solid black;
+}
+

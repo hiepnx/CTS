@@ -14,8 +14,6 @@ namespace CTS.Controllers
 
         public ActionResult Index()
         {
-            CTSDbContext ct = new CTSDbContext();
-            var a = ct.BugCategories.FirstOrDefault();
             return View();
         }
 

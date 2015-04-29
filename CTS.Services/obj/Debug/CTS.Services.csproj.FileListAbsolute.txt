@@ -1,0 +1,9 @@
+D:\GitHub\CTS\CTS.Services\obj\Debug\CTS.Services.csprojResolveAssemblyReference.cache
+D:\GitHub\CTS\CTS.Services\bin\Debug\CTS.Services.dll
+D:\GitHub\CTS\CTS.Services\bin\Debug\CTS.Services.pdb
+D:\GitHub\CTS\CTS.Services\bin\Debug\CTS.Domain.dll
+D:\GitHub\CTS\CTS.Services\bin\Debug\EntityFramework.dll
+D:\GitHub\CTS\CTS.Services\bin\Debug\CTS.Domain.pdb
+D:\GitHub\CTS\CTS.Services\bin\Debug\EntityFramework.xml
+D:\GitHub\CTS\CTS.Services\obj\Debug\CTS.Services.dll
+D:\GitHub\CTS\CTS.Services\obj\Debug\CTS.Services.pdb

@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\EFRepository.cs" />
+    <Compile Include="Data\IDbContext.cs" />
+    <Compile Include="Data\IRepository.cs" />
     <Compile Include="Domain\AnalysisStatus.cs" />
     <Compile Include="Domain\Base\BaseEntity.cs" />
     <Compile Include="Domain\BugCategory.cs" />
